@@ -1,0 +1,2622 @@
+{
+  "dataset": "Archived parallel bounded stress schedule observations",
+  "release": "selected-field public transcription of archived internal schedule records",
+  "recorded_campaign_date": "2026-08-24",
+  "challenge_id": "ch.v1.0222",
+  "scope": "four bounded parallel probes (engine API, local TCP, resource pressure, process termination); NOT end-to-end journal corruption/reconciliation proof",
+  "original_source_schedule_sha256": "173e2c0dd492b1e86cb5a3ee2fa016e6f8ad439cc47e625ef0639022c9b5c531",
+  "timing_note": "Relative per-schedule timing in milliseconds derived from source monotonic timestamps and rounded to 0.001 ms; 4-way overlap recomputed from those public timing windows.",
+  "recorded_summary": {
+    "schedules": 84,
+    "four_way_overlap_windows": 84,
+    "os_sigkill_exits": 84,
+    "distinct_run_seeds": 84
+  },
+  "privacy_note": "Host timestamps, file paths, command arguments, resource tuning, internal source identifiers and implementation details were excluded.",
+  "schedules": [
+    {
+      "schedule": 1,
+      "run_seed": 232692370440414,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.056,
+          "end_ms": 17.159,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.141,
+          "end_ms": 2.086,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.16,
+          "end_ms": 53.021,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.229,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 2,
+      "run_seed": 232692370440413,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.224,
+          "end_ms": 20.681,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.092,
+          "end_ms": 2.658,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.109,
+          "end_ms": 51.752,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.537,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 3,
+      "run_seed": 232692370440412,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.221,
+          "end_ms": 18.619,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.088,
+          "end_ms": 2.378,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.104,
+          "end_ms": 52.751,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.139,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 4,
+      "run_seed": 232692370440411,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.059,
+          "end_ms": 19.693,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.128,
+          "end_ms": 3.145,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.146,
+          "end_ms": 51.455,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.069,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 5,
+      "run_seed": 232692370440410,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.213,
+          "end_ms": 20.743,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.086,
+          "end_ms": 2.197,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.103,
+          "end_ms": 51.615,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.089,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 6,
+      "run_seed": 232692370440409,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.226,
+          "end_ms": 19.763,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.086,
+          "end_ms": 3.525,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.103,
+          "end_ms": 51.584,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.59,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 7,
+      "run_seed": 232692370440408,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.224,
+          "end_ms": 18.725,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.09,
+          "end_ms": 2.34,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.106,
+          "end_ms": 52.29,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.098,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 8,
+      "run_seed": 232692370440407,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.064,
+          "end_ms": 17.492,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.119,
+          "end_ms": 1.716,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.136,
+          "end_ms": 51.918,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.684,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 9,
+      "run_seed": 232692370440406,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.226,
+          "end_ms": 17.936,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.085,
+          "end_ms": 2.126,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.101,
+          "end_ms": 51.721,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.744,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 10,
+      "run_seed": 232692370440405,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.213,
+          "end_ms": 20.748,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.078,
+          "end_ms": 1.797,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.095,
+          "end_ms": 51.41,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.804,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 11,
+      "run_seed": 232692370440404,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.058,
+          "end_ms": 20.113,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.121,
+          "end_ms": 2.001,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.139,
+          "end_ms": 51.54,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 10.17,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 12,
+      "run_seed": 232692370440403,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.244,
+          "end_ms": 23.237,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.088,
+          "end_ms": 2.157,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.118,
+          "end_ms": 51.464,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.27,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 13,
+      "run_seed": 232692370440402,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.232,
+          "end_ms": 15.55,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.094,
+          "end_ms": 2.362,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.111,
+          "end_ms": 53.148,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.004,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 14,
+      "run_seed": 232692370440401,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.245,
+          "end_ms": 17.44,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.108,
+          "end_ms": 2.415,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.125,
+          "end_ms": 51.446,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.708,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 15,
+      "run_seed": 232692370440400,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.217,
+          "end_ms": 20.053,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.086,
+          "end_ms": 1.975,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.104,
+          "end_ms": 51.692,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.875,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 16,
+      "run_seed": 232692370440399,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.227,
+          "end_ms": 18.884,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.086,
+          "end_ms": 2.632,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.104,
+          "end_ms": 51.449,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.045,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 17,
+      "run_seed": 232692370440398,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.06,
+          "end_ms": 18.478,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.116,
+          "end_ms": 3.475,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.134,
+          "end_ms": 53.049,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.896,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 18,
+      "run_seed": 232692370440397,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.163,
+          "end_ms": 24.842,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.084,
+          "end_ms": 2.915,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.101,
+          "end_ms": 51.845,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.844,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 19,
+      "run_seed": 232692370440396,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.225,
+          "end_ms": 17.124,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.089,
+          "end_ms": 2.727,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.106,
+          "end_ms": 52.423,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.189,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 20,
+      "run_seed": 232692370440395,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.059,
+          "end_ms": 22.797,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.127,
+          "end_ms": 2.8,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.145,
+          "end_ms": 51.459,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.005,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 21,
+      "run_seed": 232692370440394,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.218,
+          "end_ms": 18.081,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.083,
+          "end_ms": 4.358,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.1,
+          "end_ms": 51.819,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.816,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 22,
+      "run_seed": 232692370440393,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.221,
+          "end_ms": 24.3,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.083,
+          "end_ms": 1.736,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.099,
+          "end_ms": 52.028,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.516,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 23,
+      "run_seed": 232692370440392,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.24,
+          "end_ms": 18.692,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.086,
+          "end_ms": 2.813,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.103,
+          "end_ms": 52.122,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.854,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 24,
+      "run_seed": 232692370440391,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.229,
+          "end_ms": 16.701,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.087,
+          "end_ms": 4.786,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.103,
+          "end_ms": 52.336,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.955,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 25,
+      "run_seed": 232692370440390,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.062,
+          "end_ms": 19.096,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.118,
+          "end_ms": 3.005,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.137,
+          "end_ms": 51.493,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.318,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 26,
+      "run_seed": 232692370440389,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.229,
+          "end_ms": 17.815,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.085,
+          "end_ms": 2.36,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.104,
+          "end_ms": 51.599,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.476,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 27,
+      "run_seed": 232692370440388,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.058,
+          "end_ms": 23.364,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.125,
+          "end_ms": 1.964,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.145,
+          "end_ms": 52.118,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.175,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 28,
+      "run_seed": 232692370440387,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.229,
+          "end_ms": 25.892,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.086,
+          "end_ms": 2.644,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.103,
+          "end_ms": 52.54,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 10.729,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 29,
+      "run_seed": 232692370440386,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.23,
+          "end_ms": 23.196,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.089,
+          "end_ms": 2.292,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.107,
+          "end_ms": 52.007,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.092,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 30,
+      "run_seed": 232692370440385,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.23,
+          "end_ms": 18.392,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.09,
+          "end_ms": 2.955,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.106,
+          "end_ms": 53.85,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.168,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 31,
+      "run_seed": 232692370440384,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.072,
+          "end_ms": 24.996,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.142,
+          "end_ms": 2.75,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.16,
+          "end_ms": 53.109,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.921,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 32,
+      "run_seed": 232692370440447,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.253,
+          "end_ms": 18.686,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.092,
+          "end_ms": 2.965,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.112,
+          "end_ms": 52.443,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.785,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 33,
+      "run_seed": 232692370440446,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.229,
+          "end_ms": 19.627,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.088,
+          "end_ms": 2.68,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.106,
+          "end_ms": 51.409,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.454,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 34,
+      "run_seed": 232692370440445,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.209,
+          "end_ms": 18.703,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.088,
+          "end_ms": 2.381,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.105,
+          "end_ms": 51.449,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.35,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 35,
+      "run_seed": 232692370440444,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.229,
+          "end_ms": 15.651,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.092,
+          "end_ms": 4.234,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.108,
+          "end_ms": 51.572,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.083,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 36,
+      "run_seed": 232692370440443,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.062,
+          "end_ms": 26.014,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.118,
+          "end_ms": 2.57,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.136,
+          "end_ms": 51.482,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.493,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 37,
+      "run_seed": 232692370440442,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.081,
+          "end_ms": 20.772,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.138,
+          "end_ms": 1.878,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.157,
+          "end_ms": 51.463,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.58,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 38,
+      "run_seed": 232692370440441,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.066,
+          "end_ms": 16.388,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.121,
+          "end_ms": 2.689,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.14,
+          "end_ms": 51.601,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.811,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 39,
+      "run_seed": 232692370440440,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.223,
+          "end_ms": 22.328,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.089,
+          "end_ms": 2.208,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.106,
+          "end_ms": 51.529,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.712,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 40,
+      "run_seed": 232692370440439,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.062,
+          "end_ms": 19.497,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.117,
+          "end_ms": 2.08,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.136,
+          "end_ms": 51.365,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.13,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 41,
+      "run_seed": 232692370440438,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.239,
+          "end_ms": 19.837,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.106,
+          "end_ms": 3.837,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.123,
+          "end_ms": 52.808,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.391,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 42,
+      "run_seed": 232692370440437,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.217,
+          "end_ms": 21.239,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.085,
+          "end_ms": 2.708,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.102,
+          "end_ms": 51.461,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.335,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 43,
+      "run_seed": 232692370440436,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.222,
+          "end_ms": 23.122,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.09,
+          "end_ms": 2.5,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.106,
+          "end_ms": 51.552,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.325,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 44,
+      "run_seed": 232692370440435,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.178,
+          "end_ms": 18.886,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.257,
+          "end_ms": 3.114,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.104,
+          "end_ms": 52.254,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.405,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 45,
+      "run_seed": 232692370440434,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.081,
+          "end_ms": 17.05,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.136,
+          "end_ms": 2.889,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.155,
+          "end_ms": 51.782,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.627,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 46,
+      "run_seed": 232692370440433,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.208,
+          "end_ms": 21.044,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.081,
+          "end_ms": 2.893,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.097,
+          "end_ms": 52.174,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.054,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 47,
+      "run_seed": 232692370440432,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.232,
+          "end_ms": 16.39,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.087,
+          "end_ms": 2.209,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.103,
+          "end_ms": 51.468,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.239,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 48,
+      "run_seed": 232692370440431,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.062,
+          "end_ms": 22.12,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.118,
+          "end_ms": 2.497,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.137,
+          "end_ms": 51.937,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 12.724,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 49,
+      "run_seed": 232692370440430,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.219,
+          "end_ms": 17.367,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.084,
+          "end_ms": 3.066,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.102,
+          "end_ms": 51.399,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.998,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 50,
+      "run_seed": 232692370440429,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.214,
+          "end_ms": 20.366,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.087,
+          "end_ms": 2.592,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.103,
+          "end_ms": 51.428,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.726,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 51,
+      "run_seed": 232692370440428,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.058,
+          "end_ms": 21.097,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.109,
+          "end_ms": 3.575,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.126,
+          "end_ms": 53.082,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.378,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 52,
+      "run_seed": 232692370440427,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.061,
+          "end_ms": 18.04,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.132,
+          "end_ms": 1.895,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.151,
+          "end_ms": 51.364,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.578,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 53,
+      "run_seed": 232692370440426,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.217,
+          "end_ms": 22.184,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.08,
+          "end_ms": 2.603,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.096,
+          "end_ms": 51.852,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 10.38,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 54,
+      "run_seed": 232692370440425,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.059,
+          "end_ms": 21.156,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.132,
+          "end_ms": 2.514,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.151,
+          "end_ms": 51.442,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.486,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 55,
+      "run_seed": 232692370440424,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.205,
+          "end_ms": 21.022,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.083,
+          "end_ms": 2.354,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.101,
+          "end_ms": 52.31,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.863,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 56,
+      "run_seed": 232692370440423,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.231,
+          "end_ms": 18.661,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.082,
+          "end_ms": 2.622,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.099,
+          "end_ms": 51.947,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.254,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 57,
+      "run_seed": 232692370440422,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.228,
+          "end_ms": 19.204,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.098,
+          "end_ms": 2.815,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.115,
+          "end_ms": 52.892,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.415,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 58,
+      "run_seed": 232692370440421,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.223,
+          "end_ms": 23.909,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.088,
+          "end_ms": 2.916,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.107,
+          "end_ms": 51.414,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 10.049,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 59,
+      "run_seed": 232692370440420,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.218,
+          "end_ms": 22.94,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.078,
+          "end_ms": 2.448,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.096,
+          "end_ms": 51.711,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.599,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 60,
+      "run_seed": 232692370440419,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.222,
+          "end_ms": 19.856,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.082,
+          "end_ms": 2.896,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.099,
+          "end_ms": 52.18,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.712,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 61,
+      "run_seed": 232692370440418,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.222,
+          "end_ms": 17.098,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.097,
+          "end_ms": 3.202,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.114,
+          "end_ms": 51.347,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.233,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 62,
+      "run_seed": 232692370440417,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.24,
+          "end_ms": 15.81,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.105,
+          "end_ms": 1.676,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.122,
+          "end_ms": 53.537,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.687,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 63,
+      "run_seed": 232692370440416,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.058,
+          "end_ms": 20.89,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.112,
+          "end_ms": 2.746,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.13,
+          "end_ms": 51.474,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.717,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 64,
+      "run_seed": 232692370440351,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.23,
+          "end_ms": 18.936,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.085,
+          "end_ms": 2.937,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.102,
+          "end_ms": 52.153,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.97,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 65,
+      "run_seed": 232692370440350,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.229,
+          "end_ms": 15.964,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.092,
+          "end_ms": 3.244,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.109,
+          "end_ms": 51.878,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.087,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 66,
+      "run_seed": 232692370440349,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.061,
+          "end_ms": 20.505,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.131,
+          "end_ms": 2.147,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.15,
+          "end_ms": 51.837,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.4,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 67,
+      "run_seed": 232692370440348,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.239,
+          "end_ms": 18.402,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.09,
+          "end_ms": 2.412,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.11,
+          "end_ms": 51.575,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.033,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 68,
+      "run_seed": 232692370440347,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.233,
+          "end_ms": 17.243,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.1,
+          "end_ms": 2.876,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.118,
+          "end_ms": 52.453,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.962,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 69,
+      "run_seed": 232692370440346,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.071,
+          "end_ms": 19.489,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.14,
+          "end_ms": 2.669,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.159,
+          "end_ms": 51.965,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.288,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 70,
+      "run_seed": 232692370440345,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.186,
+          "end_ms": 19.512,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.093,
+          "end_ms": 3.482,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.109,
+          "end_ms": 51.323,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.595,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 71,
+      "run_seed": 232692370440344,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.215,
+          "end_ms": 21.792,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.076,
+          "end_ms": 2.603,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.094,
+          "end_ms": 51.394,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.832,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 72,
+      "run_seed": 232692370440343,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.244,
+          "end_ms": 17.036,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.104,
+          "end_ms": 2.677,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.121,
+          "end_ms": 52.23,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.042,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 73,
+      "run_seed": 232692370440342,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.237,
+          "end_ms": 19.918,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.08,
+          "end_ms": 2.232,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.097,
+          "end_ms": 51.925,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.295,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 74,
+      "run_seed": 232692370440341,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.214,
+          "end_ms": 21.282,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.085,
+          "end_ms": 2.813,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.102,
+          "end_ms": 51.354,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.999,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 75,
+      "run_seed": 232692370440340,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.325,
+          "end_ms": 16.883,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.08,
+          "end_ms": 2.153,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.096,
+          "end_ms": 51.784,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.446,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 76,
+      "run_seed": 232692370440339,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.067,
+          "end_ms": 26.227,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.126,
+          "end_ms": 2.349,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.144,
+          "end_ms": 51.417,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.792,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 77,
+      "run_seed": 232692370440338,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.216,
+          "end_ms": 25.903,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.084,
+          "end_ms": 1.677,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.1,
+          "end_ms": 51.343,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 10.199,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 78,
+      "run_seed": 232692370440337,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.22,
+          "end_ms": 17.896,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.085,
+          "end_ms": 2.164,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.101,
+          "end_ms": 51.737,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.074,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 79,
+      "run_seed": 232692370440336,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.213,
+          "end_ms": 17.69,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.09,
+          "end_ms": 2.877,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.107,
+          "end_ms": 51.374,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.568,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 80,
+      "run_seed": 232692370440335,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.208,
+          "end_ms": 21.661,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.082,
+          "end_ms": 3.04,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.098,
+          "end_ms": 52.924,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 15.418,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 81,
+      "run_seed": 232692370440334,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.062,
+          "end_ms": 20.849,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.12,
+          "end_ms": 3.81,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.138,
+          "end_ms": 52.468,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.984,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 82,
+      "run_seed": 232692370440333,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.22,
+          "end_ms": 18.687,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.089,
+          "end_ms": 2.087,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.106,
+          "end_ms": 52.039,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 9.737,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 83,
+      "run_seed": 232692370440332,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.22,
+          "end_ms": 18.389,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.087,
+          "end_ms": 3.101,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.104,
+          "end_ms": 51.762,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 10.558,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    },
+    {
+      "schedule": 84,
+      "run_seed": 232692370440331,
+      "task_windows": {
+        "engine_api_probe": {
+          "start_ms": 0.248,
+          "end_ms": 18.422,
+          "recorded_pass": true
+        },
+        "local_tcp": {
+          "start_ms": 0.085,
+          "end_ms": 3.596,
+          "recorded_pass": true
+        },
+        "resource_pressure": {
+          "start_ms": 0.101,
+          "end_ms": 51.551,
+          "recorded_pass": true
+        },
+        "process_sigkill": {
+          "start_ms": 0,
+          "end_ms": 8.6,
+          "recorded_pass": true
+        }
+      },
+      "concurrent_four_way_window_observed": true,
+      "os_process_exit_code": -9,
+      "local_tcp_connection_observed": true,
+      "api_probe_violations": 0,
+      "recorded_pass": true
+    }
+  ]
+}

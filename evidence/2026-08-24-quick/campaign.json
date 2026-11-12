@@ -1,0 +1,30 @@
+{
+  "release_type": "selected public summary derived from archived internal result",
+  "campaign_date": "2026-08-24",
+  "campaign_mode": "QUICK",
+  "environment": "controlled offline/local",
+  "recorded_verdict": "PASS",
+  "evidence_status": "self-reported archived outputs; not independently attested",
+  "challenges": {
+    "catalog_records": 248,
+    "mandatory": 241,
+    "mandatory_recorded_pass": 241,
+    "not_run": 7,
+    "not_run_temporal": 6,
+    "not_run_conditional": 1
+  },
+  "reported_workload_counts": {
+    "actual_sigkills": 4714,
+    "composite_schedules": 1000,
+    "loopback_connections": 3608,
+    "micro_endurance_seconds": 300,
+    "race_schedules": 10000,
+    "session_reconnects": 100
+  },
+  "caveats": {
+    "full_client_poc_qualified": false,
+    "production_fault_authority": false,
+    "live_exchange_measurement": false
+  },
+  "original_campaign_git_blob_sha": "f6b97c322936a6059c5256945a3ca0b4b2b33d1a"
+}

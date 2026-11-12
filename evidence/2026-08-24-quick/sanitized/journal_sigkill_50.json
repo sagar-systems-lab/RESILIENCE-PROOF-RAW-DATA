@@ -1,0 +1,817 @@
+{
+  "dataset": "Archived forced process termination and torn-journal verifier checks",
+  "release": "selected-field public transcription of archived internal schedule records",
+  "recorded_campaign_date": "2026-08-24",
+  "challenge_id": "ch.v1.0109",
+  "scope": "dedicated journal fault detection; NOT integrated order recovery or exchange reconciliation",
+  "original_source_schedule_sha256": "237f28b7710851f044c878d0e69ac4ef6d95b84b4e9b9fbddbb83e971a74814d",
+  "recorded_summary": {
+    "schedules": 50,
+    "os_sigkill_exit_observed": 50,
+    "verifier_pass": 50,
+    "distinct_run_seeds": 50
+  },
+  "privacy_note": "Private paths, process arguments, record-layout sizes, journal contents and detailed resource data were excluded.",
+  "schedules": [
+    {
+      "schedule": 1,
+      "run_seed": 514167347150957,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 2,
+      "run_seed": 514167347150958,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 3,
+      "run_seed": 514167347150959,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 4,
+      "run_seed": 514167347150952,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 5,
+      "run_seed": 514167347150953,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 6,
+      "run_seed": 514167347150954,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 7,
+      "run_seed": 514167347150955,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 8,
+      "run_seed": 514167347150948,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 9,
+      "run_seed": 514167347150949,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 10,
+      "run_seed": 514167347150950,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 11,
+      "run_seed": 514167347150951,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 12,
+      "run_seed": 514167347150944,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 13,
+      "run_seed": 514167347150945,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 14,
+      "run_seed": 514167347150946,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 15,
+      "run_seed": 514167347150947,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 16,
+      "run_seed": 514167347150972,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 17,
+      "run_seed": 514167347150973,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 18,
+      "run_seed": 514167347150974,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 19,
+      "run_seed": 514167347150975,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 20,
+      "run_seed": 514167347150968,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 21,
+      "run_seed": 514167347150969,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 22,
+      "run_seed": 514167347150970,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 23,
+      "run_seed": 514167347150971,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 24,
+      "run_seed": 514167347150964,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 25,
+      "run_seed": 514167347150965,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 26,
+      "run_seed": 514167347150966,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 27,
+      "run_seed": 514167347150967,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 28,
+      "run_seed": 514167347150960,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 29,
+      "run_seed": 514167347150961,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 30,
+      "run_seed": 514167347150962,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 31,
+      "run_seed": 514167347150963,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 32,
+      "run_seed": 514167347150924,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 33,
+      "run_seed": 514167347150925,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 34,
+      "run_seed": 514167347150926,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 35,
+      "run_seed": 514167347150927,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 36,
+      "run_seed": 514167347150920,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 37,
+      "run_seed": 514167347150921,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 38,
+      "run_seed": 514167347150922,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 39,
+      "run_seed": 514167347150923,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 40,
+      "run_seed": 514167347150916,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 41,
+      "run_seed": 514167347150917,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 42,
+      "run_seed": 514167347150918,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 43,
+      "run_seed": 514167347150919,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 44,
+      "run_seed": 514167347150912,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 45,
+      "run_seed": 514167347150913,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 46,
+      "run_seed": 514167347150914,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 47,
+      "run_seed": 514167347150915,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 48,
+      "run_seed": 514167347150940,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 49,
+      "run_seed": 514167347150941,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    },
+    {
+      "schedule": 50,
+      "run_seed": 514167347150942,
+      "process": {
+        "terminated_by_sigkill": true,
+        "signal": 9,
+        "exit_code": -9
+      },
+      "journal_check": {
+        "expected": "TORN_RECORD",
+        "reported": "TORN_RECORD",
+        "verifier_exit_code": 0,
+        "verifier_verdict": "PASS"
+      },
+      "recorded_pass": true
+    }
+  ]
+}

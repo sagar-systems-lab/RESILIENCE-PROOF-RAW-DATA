@@ -1,0 +1,14 @@
+{
+  "release": "TREX archived QUICK stress run — 2026-08-24",
+  "source_kind": "private engineering evidence vault; selected public archive",
+  "original_raw_json_git_blob_shas": {
+    "evidence/2026-08-24-quick/raw_original/ch.v1.0074.json": "821374fa752314c5b92648bc58ad121c2657ebf8",
+    "evidence/2026-08-24-quick/raw_original/ch.v1.0075.json": "a030ca3c04b3ccc8fd3e6ad7165913b16abd08ac",
+    "evidence/2026-08-24-quick/raw_original/ch.v1.0102.json": "e7ad9e8c22433f341f9a8b7ae1151072842eb4b3"
+  },
+  "private_source_full_schedule_sha256": {
+    "journal_50": "237f28b7710851f044c878d0e69ac4ef6d95b84b4e9b9fbddbb83e971a74814d",
+    "composite_84": "173e2c0dd492b1e86cb5a3ee2fa016e6f8ad439cc47e625ef0639022c9b5c531"
+  },
+  "limitation": "Original Rust Git IDs can be recomputed from public bytes. The complete source schedules are private, and their listed SHA-256 fingerprints cannot be independently recomputed from the redacted public extracts. Neither proves historical test execution."
+}

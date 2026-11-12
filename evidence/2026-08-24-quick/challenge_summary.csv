@@ -1,0 +1,7 @@
+challenge_id,failure_case,record_type,reported_verdict,recorded_iterations_or_schedules,recorded_violations,checked_scope
+ch.v1.0074,Partial fill vs cancel,original Rust result,PASS,833,0,isolated order-event state oracle
+ch.v1.0075,Partial fill vs replace,original Rust result,PASS,833,0,isolated order-event state oracle
+ch.v1.0102,Ambiguous NEW denied blind retry,original Rust result,PASS,10000,0,bounded ambiguity ledger oracle
+ch.v1.0109,SIGKILL and torn journal detection,selected-field schedule traces,PASS,50,,OS process exit and torn-record verifier
+ch.v1.0222,Four overlapping bounded stress probes,selected-field timestamp traces,PASS,84,,"API probe, local TCP, resource pressure, SIGKILL; no integrated reconciliation"
+ch.v1.0094,ACK loss after write,selected-field challenge record,PASS,10,,local TCP loopback cycles

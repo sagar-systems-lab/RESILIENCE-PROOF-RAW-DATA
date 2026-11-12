@@ -1,0 +1,20 @@
+{
+  "schema":"TREX_DEALER_ARC_DIRECT_RESULT_V2",
+  "challenge_id":"ch.v1.0102",
+  "family":"AMBIGUITY",
+  "case":2,
+  "verdict":"PASS",
+  "executed":10000,
+  "rejected":10000,
+  "violations":0,
+  "transitions":30000,
+  "silent_drops":0,
+  "duplicate_economic_actions":0,
+  "elapsed_ns":605915,
+  "latency_ns":null,
+  "state_digest":"2d921d4c8ddb2be150aa2c2b4084dcd1ef327a2769e166c51afbbb9b24efcb62",
+  "fault_schedule_digest":"b6f29d61626e09fe8dc09e41f6e44f649aad8879d32e2f3ab6b4bd67a0cf7bd6",
+  "aggregate_stage_pass_inherited":false,
+  "production_fault_authority":false,
+  "note":"actual ambiguity ledger, blind-retry denial and deterministic reconciliation state"
+}

@@ -1,0 +1,12 @@
+{
+  "release_type": "sanitized selected-field challenge result",
+  "challenge_id": "ch.v1.0094",
+  "scenario": "ACK loss after write",
+  "recorded_verdict": "PASS",
+  "recorded_cycles": 10,
+  "recorded_local_tcp_connections": 10,
+  "simulated_counter_only": false,
+  "receipt_sha256": "363499ce56cd231098d0562acd1343b19d6eb26a00323c1017f8b0abb513a97a",
+  "source_result_record_sha256": "35e4c68a6b50406f543c1ba44e7af38de17edcc7b2639e80246b9447bdde5486",
+  "limitations": "local loopback session test; not external exchange acknowledgement evidence"
+}

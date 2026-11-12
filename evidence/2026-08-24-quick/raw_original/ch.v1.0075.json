@@ -1,0 +1,20 @@
+{
+  "schema":"TREX_DEALER_ARC_DIRECT_RESULT_V2",
+  "challenge_id":"ch.v1.0075",
+  "family":"RACES",
+  "case":7,
+  "verdict":"PASS",
+  "executed":833,
+  "rejected":833,
+  "violations":0,
+  "transitions":833,
+  "silent_drops":0,
+  "duplicate_economic_actions":0,
+  "elapsed_ns":7092415,
+  "latency_ns":null,
+  "state_digest":"121d72f9c4191c3d58bed7e2229a6178fd6da248c9061244be3ee5a8c92b5716",
+  "fault_schedule_digest":"dbd4b28eda27722fb3989fa4689103054d069a5134955cbb4e7d3d46e0fdf457",
+  "aggregate_stage_pass_inherited":false,
+  "production_fault_authority":false,
+  "note":"isolated RACES case=7; scenario=PARTIAL_FILL versus REPLACE; loops=833; rejected=833; violations=0; exact public-ABI + Build6 lifecycle + Build7 replace oracle"
+}
