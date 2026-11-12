@@ -1,43 +1,56 @@
 # TREX Execution Resilience — Test Evidence
 
-**Machine-readable records from an archived controlled stress campaign (24 August 2026).**
+**Can a trading execution system preserve correct order handling when things go wrong?**
 
-The repository provides selected **original Rust test outputs**, event-level **process termination / journal verification records**, and **timestamped parallel stress observations**. These are archived internal test records, not generated performance claims or an independent third-party certification.
+Trading infrastructure faces more than speed challenges. A fill can arrive while an order is being cancelled; an order acknowledgment can disappear after submission; a process can stop while recovering persistent state. Mishandling these events can create duplicate actions, uncertainty about order state, or difficult recovery.
 
-## Campaign overview
+**TREX** is client-deployed crypto execution infrastructure. This repository shows **selected machine-readable records from its controlled, offline resilience tests** (archived campaign: **24 August 2026**). It focuses on observed test outcomes—not strategy performance or marketing benchmarks.
 
-| Recorded test workload | Result |
+## What the tests showed
+
+| Operational risk | Why it matters | Recorded evidence |
+|---|---|---|
+| **Partial fill during cancel or replace** | An order can be partially executed while a change is being processed; incorrect state handling can cause inconsistent actions. | Two isolated order-event tests, **833 iterations each**, **0 recorded correctness violations**. [Cancel JSON](evidence/2026-08-24-quick/raw_original/ch.v1.0074.json) · [Replace JSON](evidence/2026-08-24-quick/raw_original/ch.v1.0075.json) |
+| **Lost acknowledgment / ambiguous order** | Retrying an order without knowing whether the first submission took effect can create a duplicate instruction. | Blind-retry guard test: **10,000 iterations**, **10,000 recorded rejections**, **0 recorded violations**. [Original JSON](evidence/2026-08-24-quick/raw_original/ch.v1.0102.json) |
+| **Unexpected process termination and damaged journal** | Unexpected shutdowns and incomplete journal records must be detected rather than silently accepted. | **50 recorded OS SIGKILL events** with corresponding **PASS** results from a torn-journal verifier. [Sanitized schedule records](evidence/2026-08-24-quick/sanitized/journal_sigkill_50.json) |
+
+**Reading these results:** They support specific checks of *order-state correctness, ambiguous-order safeguards, and journal fault detection*. They **do not** by themselves prove complete production recovery or live exchange reconciliation.
+
+## Wider stress campaign — recorded totals
+
+| Archived controlled workload | Recorded |
 |---|---:|
-| Mandatory challenge verdicts | **241 / 241 PASS** |
-| Race schedules (controlled state/event orderings) | **10,000** |
-| OS SIGKILL events | **4,714** |
+| Mandatory challenge results | **241 / 241 PASS** |
+| State/event ordering (“race”) schedules | **10,000** |
+| OS process SIGKILL events | **4,714** |
 | Local TCP loopback connections | **3,608** |
 | Composite stress schedules | **1,000** |
 | Session reconnects | **100** |
-| Additional catalog challenges not run | **7** |
+| Other catalog challenges **NOT_RUN** | **7** |
 
-Source: [campaign.json](evidence/2026-08-24-quick/campaign.json). Values are campaign-level counts; the public records below are a selected subset.
+These are **campaign-level internal results**. This public release contains a selected evidence subset, not all 241 underlying challenge files. The race counts describe controlled event orderings, not thousands of live exchange trades.
 
-## Three technical cases worth inspecting
+[Campaign data (evidence/2026-08-24-quick/campaign.json)](evidence/2026-08-24-quick/campaign.json) · [CSV challenge index](evidence/2026-08-24-quick/challenge_summary.csv)
 
-| Failure condition | Public evidence | Recorded outcome |
-|---|---|---|
-| **Partial fill arrives during cancel/replace** | [Cancel result](evidence/2026-08-24-quick/raw_original/ch.v1.0074.json) · [Replace result](evidence/2026-08-24-quick/raw_original/ch.v1.0075.json) | 833 isolated iterations **per case**, 0 recorded correctness violations |
-| **Order submission becomes ambiguous** | [Original blind-retry guard result](evidence/2026-08-24-quick/raw_original/ch.v1.0102.json) | 10,000 guard iterations, 10,000 recorded rejections, 0 recorded violations |
-| **Process is killed while a journal is present** | [50 recorded SIGKILL + torn-journal verifier checks](evidence/2026-08-24-quick/sanitized/journal_sigkill_50.json) | Exit code -9 and expected torn-record verdict across 50 recorded schedules |
+## For technical review
 
-Additional records: [84 concurrent four-probe timing schedules](evidence/2026-08-24-quick/sanitized/composite_overlap_84.json), [10 local ACK-loss test cycles](evidence/2026-08-24-quick/sanitized/ack_loss_loopback.json), [CSV index](evidence/2026-08-24-quick/challenge_summary.csv), [source fingerprints](evidence/2026-08-24-quick/provenance.json).
+Unlike a one-line PASS certificate, this repository includes:
 
-**Important:** The 84 concurrent schedules are **not** presented as end-to-end journal corruption plus exchange reconciliation tests. See [Methodology and boundaries](docs/METHODOLOGY.md).
+- **Three unchanged original Rust result JSONs** with case IDs, iteration counts, correctness counters and file fingerprints.
+- **50 sanitized process-termination/journal-verification schedules** containing recorded exits and verification outcomes.
+- **84 sanitized concurrent stress schedules** with inspectable four-task timing windows and process-kill observations. These show bounded parallel probes, **not** a full end-to-end reconciliation test.
+- **10 local ACK-loss session cycles** as additional supporting evidence.
 
-## Inspect and validate
+[84 concurrent schedules](evidence/2026-08-24-quick/sanitized/composite_overlap_84.json) · [ACK-loss record](evidence/2026-08-24-quick/sanitized/ack_loss_loopback.json) · [Source fingerprints](evidence/2026-08-24-quick/provenance.json) · [Methodology & limitations](docs/METHODOLOGY.md)
+
+To check the shared files and recorded invariants (Python 3, standard library only):
 
 ```bash
 python3 tools/verify_evidence.py
 ```
 
-The standard-library-only verifier checks the unchanged original Git blob IDs, counters, recorded process exit codes, journal verdicts and all 84 four-way overlap windows. It validates the **internal consistency of supplied artifacts**, not independent execution of proprietary engine code.
+**Evidence boundary:** These are archived internal observations, **not an independent audit, live-exchange test, or full customer-production qualification**. The checker confirms the published files' integrity and internal consistency; it does not rerun the engine or authenticate the historical execution. Independent qualification would require a separately controlled evaluation.
 
-**Release boundary:** no trading strategy, order payload, engine source/binaries, account credentials, internal command paths, or low-level resource tuning is included.
+**Confidentiality:** No engine source or binaries, trading strategies, customer orders, credentials, private command paths, or detailed optimization parameters are released.
 
 *Your Strategy. Your Infrastructure. Our Execution Engine.*
