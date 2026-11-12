@@ -30,7 +30,7 @@ Trading infrastructure faces more than speed challenges. A fill can arrive while
 
 These are **campaign-level internal results**. This public release contains a selected evidence subset, not all 241 underlying challenge files. The race counts describe controlled event orderings, not thousands of live exchange trades.
 
-[Campaign data (evidence/2026-08-24-quick/campaign.json)](evidence/2026-08-24-quick/campaign.json) · [CSV challenge index](evidence/2026-08-24-quick/challenge_summary.csv)
+[Campaign results JSON](evidence/2026-08-24-quick/campaign.json) · [CSV challenge index](evidence/2026-08-24-quick/challenge_summary.csv)
 
 ## For technical review
 
